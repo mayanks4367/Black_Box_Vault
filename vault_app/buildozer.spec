@@ -20,7 +20,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # FIX 1: Removed 'pillow' and 'qrcode[pil]'. Pure python qrcode only.
-requirements = python3,kivy,qrcode
+requirements = python3,kivy,qrcode,openssl
 
 # (str) Icon of the application
 #icon.filename = %(source.dir)s/icon.png

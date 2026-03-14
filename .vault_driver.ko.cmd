@@ -1,1 +1,1 @@
-savedcmd_vault_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/6.18.8-arch2-1/build/scripts/module.lds -o vault_driver.ko vault_driver.o vault_driver.mod.o .module-common.o
+savedcmd_vault_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/6.18.13-arch1-1/build/scripts/module.lds -o vault_driver.ko vault_driver.o vault_driver.mod.o .module-common.o
