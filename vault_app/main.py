@@ -36,6 +36,7 @@ HISTORY_FILE: str = "vault_history.json"
 
 KV_STYLES = """
 #:import hex kivy.utils.get_color_from_hex
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
 
 # Material You Color Palette
 #:set color_mustard hex('#F4E3B5')
@@ -53,7 +54,7 @@ KV_STYLES = """
     orientation: 'vertical'
     icon_text: ''
     label_text: ''
-    is_active: BooleanProperty(False)
+    is_active: False
     on_touch_down: app.nav_click(self)
     MaterialLabel:
         text: root.icon_text
